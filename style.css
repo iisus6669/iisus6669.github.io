@@ -23,6 +23,10 @@ body{
 }
 
 @media (max-width: 768px) {
+    body {
+        background-color: yellow; /* Проверьте, изменится ли цвет фона на мобильных устройствах */
+    }
+    
      .header {
         min-height: 600px; /* Уменьшите высоту для мобильных */
         background-size: cover;
