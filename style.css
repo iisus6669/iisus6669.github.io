@@ -22,6 +22,46 @@ body{
     background-image: url(../img/big-screen.svg);
 }
 
+@media (max-width: 768px) {
+    .main_logo, .main_tittle, .main_block, .Card_1, .Card_2, .Card_3, .Card_4, .bottom_tittle, .paras {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; /* Центрирование текста */
+    }
+
+    .tittle {
+        font-size: 60px; /* Уменьшение размера шрифта для заголовков */
+        line-height: 1.2;
+        width: auto; /* Чтобы текст не выходил за пределы экрана */
+    }
+
+    .main_block, .testimonial, .Audio, .play, .CTA, .box, .About {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .Karen, .dot_left, .dot_right, .trailer {
+        width: 80%;
+        height: auto;
+        top: 0;
+        left: 0;
+        margin: 20px auto;
+    }
+
+    .blog_block {
+        height: auto;
+        padding: 20px;
+    }
+
+    .blog_tittle, .bot_tittle {
+        font-size: 60px;
+    }
+}
+
+
 .main_logo{
     color: #FFFFFF;
     margin: auto;
