@@ -32,6 +32,7 @@ body{
 }
 
 .button__main{
+    background-color: transparent;
     border: none;
     width: auto;
     height: auto;
@@ -91,6 +92,7 @@ body{
 }
 
 .button__founder{
+    background-color: transparent;
     border: none;
 }
 
