@@ -1,0 +1,137 @@
+*, *::before, *::after{
+    box-sizing: inherit;}
+
+html{
+    box-sizing: border-box;}
+    
+body{
+    margin: 0;
+    position: relative;
+    font-family: 'Gabarito', sens-serif;
+    font-weight: 400;}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 390px;
+    height: auto;}
+
+.main__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 390px;
+    height: 57px;
+    margin-top: 13px;
+}
+
+.button__main{
+    border: none;
+    width: 100px;
+    height: auto;
+}
+
+.button__main__img{
+    width: 80px;
+    height: auto;
+}
+
+.main__logo__img{
+    width: 100px;
+    height: auto;
+    padding-right: 6px;
+}
+
+.Menu__tittles{
+    display: none;
+}
+
+.header__menu{
+    display: none;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    width: 90px;
+    height: auto;
+}
+
+.cont__header{
+    width: 390px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.main__label{
+    width: 390px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.br__systems{
+    width: 390px;
+    height: auto;
+    margin-top: 21px;
+}
+
+.main__block{
+    height: auto;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.founders{
+    width: 390px;
+    height: auto;
+}
+
+.buttons__founder__ahmed{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 87px;
+    left: 50px;
+    top: -205px;
+}
+
+.buttons__founder__nada{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 87px;
+    left: 245px;
+    top: -262px;
+}
+
+.button__founder{
+    width: 87px;
+    height: auto;
+    border: none;
+}
+
+.little__tittle{
+    margin-left: 4px;
+}
+
+.recent__projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 390px;
+    height: auto;
+    margin-top: 7px;
+}
+
+.project__block{
+    width: 160px;
+    height: auto;
+}
+
+.footer{
+    margin-top: 8px;
+    width: 390px;
+}

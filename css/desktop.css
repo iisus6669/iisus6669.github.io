@@ -1,0 +1,113 @@
+*, *::before, *::after{
+    box-sizing: inherit;}
+
+html{
+    box-sizing: border-box;}
+    
+body{
+    margin: 0;
+    position: relative;
+    font-family: 'Gabarito', sens-serif;
+    font-weight: 400;}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;}
+
+.main__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: auto;
+    margin-top: 33px;}
+
+.main__logo__img{
+    width: auto;
+    height: auto;
+}
+
+.button__main{
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+.button__main__img{
+    width: auto;
+    height: auto;
+}
+
+.cont__header{
+    margin-top: 28px;}
+
+.main__label{
+    margin-top: 20px;}
+
+.header_menu{
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    width: 390px;
+    height: auto;}
+
+.br__systems{
+    margin-top: 81px;
+}
+
+.main__block{
+    height: auto;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__body{
+    width: 390px;
+    height: auto;
+}
+
+.buttons__founder__ahmed{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 217px;
+    left: 257px;
+    top: -700px;
+}
+
+.buttons__founder__nada{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 217px;
+    left: 960px;
+    top: -828px;
+}
+
+.button__founder{
+    border: none;
+}
+
+.little__tittle{
+    margin-left: 150px;
+    margin-top: 52px;
+}
+
+.recent__projects{
+    display: flex;
+    width: 1440px;
+    height: 465px;
+    margin-top: 47px;
+}
+
+.footer{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
